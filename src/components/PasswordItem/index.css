@@ -1,0 +1,97 @@
+.passwordItemContainer {
+  background-color: transparent;
+  border-radius: 4px;
+  border-width: 1px;
+  border-style: solid;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-color: #f8fafc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+}
+.nameId {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 28px;
+  border-radius: 24px;
+  text-align: center;
+}
+.websiteName {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+.username {
+  font-family: 'Roboto';
+  font-size: 19px;
+  font-weight: 500;
+  color: #ffffff;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+.starImage {
+  width: 160px;
+}
+.passwordDetails {
+  display: flex;
+}
+.descCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 18px;
+}
+.deleteButton {
+  background-color: transparent;
+  border-radius: 0px;
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+}
+.deleteImage {
+  width: 30px;
+}
+.bg1 {
+  background-color: #f59e0b;
+}
+.bg2 {
+  background-color: #10b981;
+}
+.bg3 {
+  background-color: #14b8a6;
+}
+.bg4 {
+  background-color: #b91c1c;
+}
+.bg5 {
+  background-color: #0ea5e9;
+}
+.bg6 {
+  background-color: #f97316;
+}
+.passwordName {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 500;
+  margin: 0px;
+}
+@media screen and (min-width: 768px) {
+  .passwordItemContainer {
+    width: 280px;
+    margin: 8px;
+  }
+}

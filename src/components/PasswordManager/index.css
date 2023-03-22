@@ -1,0 +1,256 @@
+.divContainer {
+  background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+  min-height: 100vh;
+  padding: 23px;
+}
+.logoImage {
+  width: 170px;
+  margin-bottom: 20px;
+}
+.passwordAddingContainer {
+  background-color: #5763a5;
+  border-radius: 8px;
+  border-width: 0px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.passwordManagerImage {
+  width: 290px;
+  content: url('https://assets.ccbp.in/frontend/react-js/password-manager-sm-img.png');
+}
+.formContainer {
+  background-color: #454f84;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 12px;
+  border-width: 0px;
+  width: 100%;
+}
+.heading {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 20px;
+}
+.inputContainer {
+  background-color: #f8fafc;
+  border-radius: 4px;
+  border-width: 0px;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.formImages {
+  width: 23px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  margin-right: 13px;
+}
+.inputEl {
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #94a3b8;
+  font-size: 17px;
+  background-color: transparent;
+  border-width: 0px;
+  outline: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-left-width: 2px;
+  border-left-style: solid;
+  border-left-color: #b6c3ca;
+  padding-left: 10px;
+  width: 100%;
+}
+.buttonEl {
+  background-color: #0b69ff;
+  border-radius: 4px;
+  border-width: 0px;
+  color: #f8fafc;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 18px;
+  cursor: pointer;
+  outline: none;
+}
+.buttonCont {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.passwordsListContainer {
+  background-color: #5763a5;
+  border-radius: 8px;
+  border-width: 0px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 14px;
+  padding-bottom: 20px;
+  width: 100%;
+}
+.countAndSearchContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading2 {
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #f8fafc;
+  font-size: 17px;
+}
+.countValue {
+  background-color: transparent;
+  border-radius: 12px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #f8fafc;
+  padding-left: 7px;
+  padding-right: 7px;
+  margin-left: 6px;
+  margin-right: 6px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.headingContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inputContainer2 {
+  background-color: #f8fafc;
+  border-radius: 2px;
+  border-width: 0px;
+  width: 170px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.inputEl2 {
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #94a3b8;
+  font-size: 15px;
+  background-color: transparent;
+  border-width: 0px;
+  outline: none;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-left-width: 2px;
+  border-left-style: solid;
+  border-left-color: #b6c3ca;
+  padding-left: 8px;
+  width: 125px;
+}
+.searchImage {
+  width: 23px;
+  margin-right: 10px;
+}
+.horizontalLine {
+  background-color: #f8fafc;
+}
+.checkboxEl {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  outline: none;
+}
+.labelText {
+  color: #f8fafc;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  padding-left: 8px;
+}
+.checkboxContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.noPasswordsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.noPasswordsImage {
+  width: 290px;
+}
+.heading3 {
+  font-size: 23px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+.listContainer {
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+@media screen and (min-width: 768px) {
+  .divContainer {
+    padding: 35px;
+  }
+  .passwordAddingContainer {
+    display: flex;
+    flex-direction: row;
+  }
+  .passwordManagerImage {
+    order: 1;
+    width: 330px;
+    margin-left: 15px;
+    content: url('https://assets.ccbp.in/frontend/react-js/password-manager-lg-img.png');
+  }
+}
+@media screen and (min-width: 1024px) {
+  .divContainer {
+    padding: 60px;
+    padding-left: 90px;
+  }
+  .passwordAddingContainer {
+    width: 980px;
+  }
+  .passwordsListContainer {
+    width: 980px;
+  }
+  .passwordManagerImage {
+    content: url('https://assets.ccbp.in/frontend/react-js/password-manager-lg-img.png');
+  }
+}
+@media screen and (min-width: 768px) {
+  .listContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 768px) {
+  .inputContainer2 {
+    width: 190px;
+  }
+  .inputEl2 {
+    width: 140px;
+  }
+}
